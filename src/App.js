@@ -7,7 +7,6 @@ import { FaArrowDown } from 'react-icons/fa'
 function App() {
   return (
     <div className="container">
-      <Navbar />
 
       <BigHeader />
       <div className="scroll">
