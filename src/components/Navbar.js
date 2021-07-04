@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <Button text="about" section="navbar-btn" 
-            onClick={ () => window.location.replace("/#about")} />
+            onClick={ () => window.location.replace("/personal-website/#about")} />
             <Button text="projects" section="navbar-btn" 
             onClick={ () => window.location.replace("/#projects")} />
             <Button text="artwork" section="navbar-btn" 
