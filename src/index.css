@@ -1,13 +1,156 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 100%;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+  
 }
+
+.bigHeader, .midHeader {
+  font-family: rig-solid-medium-outline, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 10vw;
+  text-align: center;
+  padding-top: 10vw;
+  margin-bottom: 0.5vw;
+}
+
+.midHeader {
+  font-size: 4vw;
+  padding-top: 0px;
+}
+.navbar-btn {
+  font-size: 2em;
+  font-weight: 300;
+  margin: 1vw 2vw;
+  font-family: roc-grotesk, sans-serif;
+}
+
+.github_btn, .report_btn {
+  font-size: 15px;
+  font-family: roc-grotesk, sans-serif;
+}
+
+Button {
+  border: none;
+  background-color: transparent;
+}
+
+Button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: calc(0px + 100vw);
+  background: white;
+}
+
+h6 {
+  font-size: 2vw;
+  text-align: center;
+  font-weight: 300;
+  padding: 0;
+  margin: 15px;
+}
+
+#about {
+  margin: 15vw 10vw;
+  font-size: 15vw;
+  padding-top: 10vw;
+}
+
+@media (min-width: 50px) {
+  #about {
+    font-size: 5vw;
+  }
+
+  .contact_btn, .contact {
+    font-size: 4vw;
+    margin: 3vw;
+  }
+  
+}
+
+@media (min-width: 700px) {
+  #about {
+    font-size: 4vw;
+  }
+
+  .contact_btn, .contact {
+    font-size: 3vw;
+    margin: 2vw;
+  }
+  
+}
+
+@media (min-width: 900px) {
+  #about {
+    font-size: 2.5vw;
+  }
+
+  .contact_btn, .contact {
+    font-size: 2.5vw;
+    margin: 1vw;
+  }
+  
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.a_project {
+  width: 250px;
+  text-align: left;
+  margin: 2vw 5vw;
+}
+
+#artwork {
+  margin-bottom: 1vw;
+}
+
+embed {
+  width: 90%;
+  height: 85vh;
+  margin-bottom: 4vw;
+}
+
+.bodyText {
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.contact_btn {
+  font-family: roc-grotesk, sans-serif;
+}
+
+
+
