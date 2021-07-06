@@ -17,7 +17,7 @@ html {
   font-style: normal;
   font-size: 10vw;
   text-align: center;
-  padding-top: 10vw;
+  padding-top: 5vw;
   margin-bottom: 0.5vw;
 }
 
@@ -32,7 +32,7 @@ html {
   font-family: roc-grotesk, sans-serif;
 }
 
-.github_btn, .report_btn {
+.github_btn, .report_btn, .proj_detail_btn {
   font-size: 15px;
   font-family: roc-grotesk, sans-serif;
 }
@@ -123,6 +123,7 @@ h6 {
   width: 250px;
   text-align: left;
   margin: 2vw 5vw;
+
 }
 
 #artwork {
@@ -148,9 +149,59 @@ embed {
   justify-content: space-evenly;
 }
 
-.contact_btn {
+.contact_btn, .proj_detail_btn {
   font-family: roc-grotesk, sans-serif;
 }
 
+.a_design_project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.project_logo, .project_image {
+  width: auto;
+  height: 150px;
+}
 
+.designProjects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.design_project_text {
+  margin: 2vw;
+  width: 200px;
+}
+
+.design_project_name {
+  margin-bottom: 0px;
+}
+
+.design_project_desc {
+  margin-top: 5px;
+}
+
+.proj_detail_design {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.des_proj_show_det {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.scroll {
+  margin-top: 15vh;
+}

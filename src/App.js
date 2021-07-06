@@ -1,10 +1,19 @@
+import { useState } from 'react'
 import BigHeader from './components/BigHeader'
 import Navbar from './components/Navbar'
-import Projects from './components/Projects';
-import Button from './components/Button';
+import Projects from './components/Projects'
+import Button from './components/Button'
+import DesignProject from './components/DesignProject'
+import ada from './img/ada'
+import adaIcon from './img/ada-icon.png'
+import apol from './img/apol'
+import apolIcon from './img/apol-icon.png'
 import { FaArrowDown } from 'react-icons/fa'
 
 function App() {
+  const [showProjectDetailAda, setShowProjectDetailAda] = useState (false)
+  const [showProjectDetailApol, setShowProjectDetailApol] = useState (false)
+
   return (
     <div className="container">
 
@@ -33,6 +42,31 @@ function App() {
 
       <BigHeader id="projects" title="PROJECTS" className="projectsHeader"/>
       <Projects />
+
+      <div className="designProjects">
+        <DesignProject img={adaIcon} name="Ada's Sandwiches" 
+        description="UI design for an imaginary sandwich shop's website." 
+        onShow={() => setShowProjectDetailAda(!showProjectDetailAda)}
+        showProj={showProjectDetailAda}/>
+
+        <DesignProject img={apolIcon} name="Apol & Dion" 
+        description="UI design for an imaginary magazine's mobile app." 
+        onShow={() => setShowProjectDetailApol(!showProjectDetailApol)}
+        showProj={showProjectDetailApol}/>
+      </div>
+
+      <center>
+        {showProjectDetailAda &&
+          <div className="des_proj_show_det">
+            <img className="proj_detail_design" alt="ada_detail" src={ada}/>
+            <Button section="proj_detail_btn" text="hide details" onClick={() => setShowProjectDetailAda(!showProjectDetailAda)}/>
+          </div>}
+        {showProjectDetailApol &&
+          <div className="des_proj_show_det">
+            <img className="proj_detail_design" alt="apol_detail" src={apol}/>
+            <Button section="proj_detail_btn" text="hide details" onClick={() => setShowProjectDetailApol(!showProjectDetailApol)}/>
+          </div>}
+      </center>
 
       <BigHeader id="artwork" title="ARTWORK" className="artworkHeader" />
       <div className="bodyText">
