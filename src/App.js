@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import BigHeader from './components/BigHeader'
-import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Button from './components/Button'
 import DesignProject from './components/DesignProject'
@@ -26,10 +25,10 @@ function App() {
       <div id="about" className="bodyText">
         <p>
           My name is Pınar Haskırış.
-          I am a 20 year-old pre-final year computer engineering student from Istanbul, Turkey.
+          I am a 20 year-old final year computer engineering student from Istanbul, Turkey.
         </p>
         <p>
-          Outside of academic life and web development, I enjoy making art and learning languages.
+          Outside of academic life and web development, I enjoy reading, making art and learning languages.
         </p>
         <div className="bodyText contact">
           <p>haskirisp@mef.edu.tr</p>
@@ -37,6 +36,9 @@ function App() {
           onClick={ () => window.open('https://drive.google.com/file/d/13Al8gmNrSIx8m-eV-nNovCUAYXu3SvV0/view?usp=sharing')}/>
           <Button text='github' section="contact_btn" 
           onClick={ () => window.open('https://github.com/pinarhaskiris')}/>
+          <Button text='goodreads' section="contact_btn" 
+          onClick={ () => window.open('https://www.goodreads.com/user/show/62826027-p-nar')}/>
+
         </div>
       </div>
 

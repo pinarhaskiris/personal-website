@@ -69,17 +69,16 @@ h6 {
 
 #about {
   margin: 15vw 10vw;
-  font-size: 15vw;
   padding-top: 10vw;
 }
 
 @media (min-width: 50px) {
   #about {
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
 
   .contact_btn, .contact {
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin: 3vw;
   }
   
@@ -87,11 +86,11 @@ h6 {
 
 @media (min-width: 700px) {
   #about {
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
 
   .contact_btn, .contact {
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin: 2vw;
   }
   
@@ -99,11 +98,11 @@ h6 {
 
 @media (min-width: 900px) {
   #about {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
 
   .contact_btn, .contact {
-    font-size: 2.5vw;
+    font-size: 2vw;
     margin: 1vw;
   }
   
