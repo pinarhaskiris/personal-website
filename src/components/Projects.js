@@ -17,7 +17,7 @@ const Projects = () => {
                 name="Personal Website" 
                 p1="A portfolio website where I give more detail about myself and my work."
                 p2="This was the first project I did using React.js and the main goal was to understand the basics of it alongside building a personal website for myself."
-                tools="HTML, CSS, React.js" />
+                tools="HTML, CSS, React.js, Adobe XD" />
             </div>
 
 
@@ -45,10 +45,14 @@ const Projects = () => {
                 <Project 
                 img={airlinedb}
                 name="Airline DB" 
-                p1="An airline database where customers can book or refund tickets."
-                p2="This was a team project and I was responsible for writing the SQL statements, helping the implementation of the user interface and contributing to the design of the database."
-                tools="MySQL, Visual Studio, Windows Forms, C#"/>
-                <Button text='github repository' section="github_btn" onClick={ () => window.open('https://github.com/AhsenAmil/AirlineDatabaseProject')} />
+                p1="A website for an airline where: clients can book, refund, question tickets and flight schedulers can add/delete flights."
+                p2="This was a team project and I was responsible for the implementation of the website alongside few diagrams for the report."
+                p3="This project is an improved version of another one. Previous version was implemented as a desktop application with less functionality to practice relational databases. Contrast to the previous one, this project was made to learn common software development practices."
+                tools="HTML, CSS, Django (web)"
+                tools2="MySQL, Visual Studio, Windows Forms, C# (desktop)"/>
+                <Button text='github repository (web)' section="github_btn" onClick={ () => window.open('https://github.com/pinarhaskiris/blue-airline')} />
+                <Button text='report (web)' section="github_btn" onClick= { () => window.open('https://docs.google.com/document/d/11OZekBdJDJDN9xlHz8z3BdV19d4XKayP7zUkguJ4vBw/')} />
+                <Button text='github repository (desktop)' section="github_btn" onClick={ () => window.open('https://github.com/AhsenAmil/AirlineDatabaseProject')} />
             </div>
 
             <div className="a_project">
@@ -63,8 +67,9 @@ const Projects = () => {
                 <Project 
                 img={argame}
                 name="Fight Like A Snowman" 
-                p1="A sinle-player, augmented reality fight game."
-                p2="This was a team project but everyone continued where the other one left off. Therefore, we all participated in every part of the project."
+                p1="A single-player, augmented reality fight game."
+                p2="This was a team project but everyone continued where the other one left off. Therefore, we all participated in every part of it."
+                p3="It was made to see how capable we are of creating a game with no prior knowledge about how to make it. (Took us 3 weeks.)"
                 tools="Unity, Vuforia, C#" />
             </div>
         </div>

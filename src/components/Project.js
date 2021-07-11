@@ -1,5 +1,5 @@
 
-const Project = ({ img, name, p1, p2, p3, tools }) => {
+const Project = ({ img, name, p1, p2, p3, tools, tools2 }) => {
     return (
         <div>
             <center>
@@ -9,7 +9,10 @@ const Project = ({ img, name, p1, p2, p3, tools }) => {
             <p className="project_p1">{p1}</p>
             <p className="project_p2">{p2}</p>
             <p className="project_p3">{p3}</p>
-            <p className="project_tools">{tools}</p>
+            <div className="tools">
+                <p className="project_tools">{tools}</p>
+                <p className="project_tools">{tools2}</p>
+            </div>
         </div>
     )
 }

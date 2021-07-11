@@ -25,7 +25,7 @@ function App() {
       <div id="about" className="bodyText">
         <p>
           My name is Pınar Haskırış.
-          I am a 20 year-old final year computer engineering student from Istanbul, Turkey.
+          I am a 20 year-old, final year computer engineering student from Istanbul, Turkey.
         </p>
         <p>
           Outside of academic life and web development, I enjoy reading, making art and learning languages.
@@ -47,12 +47,12 @@ function App() {
 
       <div className="designProjects">
         <DesignProject img={adaIcon} name="Ada's Sandwiches" 
-        description="UI design for an imaginary sandwich shop's website." 
+        description="UI design for an imaginary sandwich shop's website. Made to practice web design fundamentals." 
         onShow={() => setShowProjectDetailAda(!showProjectDetailAda)}
         showProj={showProjectDetailAda}/>
 
         <DesignProject img={apolIcon} name="Apol & Dion" 
-        description="UI design for an imaginary magazine's mobile app." 
+        description="UI design for an imaginary magazine's mobile app. Made to practice UX design fundamentals." 
         onShow={() => setShowProjectDetailApol(!showProjectDetailApol)}
         showProj={showProjectDetailApol}/>
       </div>
