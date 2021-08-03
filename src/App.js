@@ -25,7 +25,7 @@ function App() {
       <div id="about" className="bodyText">
         <p>
           My name is Pınar Haskırış.
-          I am a 20 year-old, final year computer engineering student from Istanbul, Turkey.
+          I am a 21 year-old, final year computer engineering student from Istanbul, Turkey.
         </p>
         <p>
           Outside of academic life and web development, I enjoy reading, making art and learning languages.

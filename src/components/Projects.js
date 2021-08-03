@@ -1,11 +1,11 @@
 import Button from "./Button"
 import Project from "./Project"
-import mail from "/home/haskirisp/Desktop/portfolio/src/img/mail.png"
-import airlinedb from "/home/haskirisp/Desktop/portfolio/src/img/airlinedb.png"
-import argame from "/home/haskirisp/Desktop/portfolio/src/img/argame.png"
-import numrec from "/home/haskirisp/Desktop/portfolio/src/img/numrec.png"
-import personal_website from "/home/haskirisp/Desktop/portfolio/src/img/personal_website.png"
-import commerce from "/home/haskirisp/Desktop/portfolio/src/img/commerce.png"
+import mail from "../img/mail.png"
+import airlinedb from "../img/airlinedb.png"
+import argame from "../img/argame.png"
+import numrec from "../img/numrec.png"
+import personal_website from "../img/personal_website.png"
+import commerce from "../img/commerce.png"
 
 
 const Projects = () => {
